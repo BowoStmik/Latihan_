@@ -9,7 +9,7 @@ fmt. Fprintln(w, "This is the About Page!")
 }
 http.HandleFunc("/", handlerIndex)
 
-fmt.Println("server started at localhost:01")
-http.ListenAndServe("localhost:01", nil)
+fmt.Println("server started at localhost:9001")
+http.ListenAndServe("localhost:9001", nil)
 
 }
